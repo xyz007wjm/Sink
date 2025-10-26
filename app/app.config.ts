@@ -1,7 +1,7 @@
 export default defineAppConfig({
-  title: 'Sink',
-  email: 'sink.cool@miantiao.me',
-  github: 'https://github.com/ccbikai/sink',
+  title: 'Cn-url.cn',
+  email: '34840489@qq.com',
+  github: 'https://github.com/xyz007wjm/sink',
   twitter: 'https://sink.cool/kai',
   telegram: 'https://sink.cool/telegram',
   mastodon: 'https://sink.cool/mastodon',
