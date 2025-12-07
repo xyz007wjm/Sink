@@ -22,14 +22,6 @@
     >
       {{ $t('home.cta.description') }}
     </p>
-    <div class="mt-5 flex">
-      <HomeLink
-        href="https://github.com/miantiao-me/sink?tab=readme-ov-file#%EF%B8%8F-deployment"
-        type="inverted"
-        :title="$t('home.cta.button')"
-      >
-        {{ $t('home.cta.button') }}
-      </HomeLink>
-    </div>
+   
   </div>
 </template>
