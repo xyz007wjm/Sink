@@ -45,20 +45,7 @@ const { title, description, github } = useAppConfig()
           />
           {{ $t('dashboard.title') }}
         </HomeLink>
-        <HomeLink
-          size="lg"
-          type="outline"
-          rel="noopener"
-          :href="github"
-          title="Github"
-          class="flex items-center justify-center gap-1"
-          target="_blank"
-        >
-          <GitHubIcon
-            class="h-5 w-5"
-          />
-          GitHub Repo
-        </HomeLink>
+      
       </div>
     </div>
     <div
