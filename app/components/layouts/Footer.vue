@@ -13,7 +13,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
       "
     >
       <a
-        href="https://sink.cool"
+        href="https://cn-url.cn"
         class="
           text-xl leading-none font-black text-gray-900 select-none
           dark:text-gray-100
@@ -25,11 +25,11 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
           mt-4 text-sm text-gray-500
           sm:mt-0 sm:ml-4 sm:border-l sm:border-gray-200 sm:pl-4
         "
-        href="https://html.zone"
+        href="https://beian.miit.gov.cn/"
         target="_blank"
-        title="HTML.ZONE"
+        title="备案信息"
       >
-        &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
+        &copy; {{ new Date().getFullYear() }} 浙ICP备16013758号-6
       </a>
       <span
         class="
@@ -50,22 +50,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
           <GmailIcon
             class="h-6 w-6"
           />
-        </a>
-        <a
-          v-if="telegram"
-          :href="telegram"
-          target="_blank"
-          title="Telegram"
-          class="
-            text-gray-400
-            hover:text-gray-500
-          "
-        >
-          <span class="sr-only">{{ $t('layouts.footer.social.telegram') }}</span>
-          <TelegramIcon
-            class="h-6 w-6"
-          />
-        </a>
+        </a>        
         <a
           v-if="blog"
           :href="blog"
@@ -78,38 +63,6 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
         >
           <span class="sr-only">{{ $t('layouts.footer.social.blog') }}</span>
           <BloggerIcon
-            class="h-6 w-6"
-          />
-        </a>
-
-        <a
-          v-if="twitter"
-          :href="twitter"
-          target="_blank"
-          title="Twitter"
-          class="
-            text-gray-400
-            hover:text-gray-500
-          "
-        >
-          <span class="sr-only">{{ $t('layouts.footer.social.twitter') }}</span>
-          <XIcon
-            class="h-6 w-6"
-          />
-        </a>
-
-        <a
-          v-if="mastodon"
-          :href="mastodon"
-          target="_blank"
-          title="Mastodon"
-          class="
-            text-gray-400
-            hover:text-gray-500
-          "
-        >
-          <span class="sr-only">{{ $t('layouts.footer.social.mastodon') }}</span>
-          <MastodonIcon
             class="h-6 w-6"
           />
         </a>
